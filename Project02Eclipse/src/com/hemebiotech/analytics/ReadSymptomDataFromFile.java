@@ -23,7 +23,7 @@ public class ReadSymptomDataFromFile implements ISymptomReader {
 	}
 	
 	@Override
-	public List<String> GetSymptoms() {
+	public List<String> GetSymptoms() throws java.io.FileNotFoundException {
 		ArrayList<String> result = new ArrayList<String>();
 		
 		if (filepath != null) {
