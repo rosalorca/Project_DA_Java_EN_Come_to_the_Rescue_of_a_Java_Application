@@ -1,4 +1,3 @@
-Les Symptoms
 anxiety = 5
 arrhythmias = 3
 blindness = 1
