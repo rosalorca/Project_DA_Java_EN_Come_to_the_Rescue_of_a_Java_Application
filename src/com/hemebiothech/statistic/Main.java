@@ -11,13 +11,16 @@ import com.hemebiothech.statistic.interfaces.ISymptomWritter;
  * 
  * @author donderozl
  * @since 01.09.2020
- * @version p2.02
+ * @version projet2.02.2020
  */
 public class Main {
 
 	public static String filepath = "symptoms.txt";
 
 	public static void main(String[] args) throws IOException {
+		/*
+		 *  the objects was created
+		 * */
 		ISymptomReader sr = new ReadSymptomDataFromFile(filepath);
 		List<String> result = sr.getSymptoms();
 
