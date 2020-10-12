@@ -6,13 +6,14 @@ import java.util.TreeMap;
 
 import com.hemebiothech.statistic.interfaces.IStatisticsCounter;
 
-public class StatisticsCounter implements IStatisticsCounter{
-	
+public class StatisticsCounter implements IStatisticsCounter {
+
 	/**
 	 * 
 	 * @param symptoms
 	 * @return if we would add new symptom directly we can.
 	 * 
+	 *I added a map so that it can read the lines and tell the amount.
 	 *
 	 */
 	public Map<String, Integer> count(List<String> symptoms) {
@@ -30,10 +31,7 @@ public class StatisticsCounter implements IStatisticsCounter{
 			}
 		}
 		return wordListe;
-	
 
-	
-	
 	}
-															
+
 }

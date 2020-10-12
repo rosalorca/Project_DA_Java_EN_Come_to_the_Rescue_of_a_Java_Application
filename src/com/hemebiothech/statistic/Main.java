@@ -19,7 +19,7 @@ public class Main {
 
 	public static void main(String[] args) throws IOException {
 		/*
-		 *  the objects was created
+		 *  the objects was created sr, sc, sw...
 		 * */
 		ISymptomReader sr = new ReadSymptomDataFromFile(filepath);
 		List<String> result = sr.getSymptoms();

@@ -9,18 +9,14 @@ import java.util.List;
 import com.hemebiothech.statistic.interfaces.ISymptomReader;
 
 /**
- * Simple brute force implementation
+ * i added one condition for reading the filepath... filepath wasn't empty and
+ * contain a list of lines
  *
  */
 public class ReadSymptomDataFromFile implements ISymptomReader {
 
 	private String filepath;
 
-	/**
-	 * 
-	 * @param filepath a full or partial path to file with symptom strings in it,
-	 *                 one per line
-	 */
 	public ReadSymptomDataFromFile(String filepath) {
 		this.filepath = filepath;
 

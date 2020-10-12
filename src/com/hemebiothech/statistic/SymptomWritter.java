@@ -12,7 +12,7 @@ import com.hemebiothech.statistic.interfaces.ISymptomWritter;
  * 
  * @author donderozl
  * 
- *         We can print the symptoms like printout
+ *  We can print the symptoms like printout and it can be write every symptoms for inside
  *
  */
 public class SymptomWritter implements ISymptomWritter {
